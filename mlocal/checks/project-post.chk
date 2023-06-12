@@ -49,7 +49,7 @@ config_add_def PLUGIN_ROOTDIR LIBEXECDIR \"/singularity/plugin\"
 # engine configuration constants
 engine_config_env="ENGINE_CONFIG"
 engine_config_chunks_env="ENGINE_CONFIG_CHUNKS"
-max_engine_config_chunk="8"
+max_engine_config_chunk="32"
 
 config_add_def ENGINE_CONFIG_ENV \"$engine_config_env\"
 config_add_def ENGINE_CONFIG_CHUNK_ENV \"$engine_config_chunks_env\"
